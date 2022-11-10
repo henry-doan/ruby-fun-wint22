@@ -390,11 +390,120 @@
   # end
   # num % 2 == 0 ? puts 'even' : puts 'odd'
 
-  
+
 # Loops
   # - statements
+  # that is always true 
+  # - infinite loop 
+  # * don't want 
+  # while 1 > 0 
+  #   puts "hello"
+  # end
+
+  # to stop a infinite loop 
+  # to get out of a program in the terminal 
+  # control + c 
+  # tips to avoid infinite loops 
+  # base case - initial starting point 
+# induction step - progress to get to the stoping point
+  # stop point - this is where out loop should stop
+
   # - continue to run logic until a condition is met 
-  # for 
   # while 
+  # num = 0 #base case 
+
+  # while num <= 5 # stop point
+  #   puts num 
+  #   num += 1 # induction step 
+  # end
+
+  # for 
   # until 
-  # interators 
+  # interators - goes through each value one at a time
+  # - with array and hashes 
+  # for
+  # each 
+  # map 
+  # select - select base off of a condition
+  # reject - noselect base off of a condition 
+  # reduce - combine the nums of a condition
+              # name    name     name   name 
+#   names_arr = ["bob", "jill", "jack", "josh"]
+
+#   names_arr.each do |name|
+#     puts name
+#   end
+
+#   for name in names_arr
+#     puts name 
+#   end 
+
+#   names_arr.map{ |name| puts name }
+
+#   Select:
+
+# arr = [1,2,3,4,5]
+
+# new_arr = arr.select { |num| num % 2 == 0 }
+
+# puts new_arr
+# => [2,4]
+# Reject:
+
+# arr = [1,2,3,4,5]
+
+# new_arr = arr.reject { |num| num % 2 == 0 }
+
+# puts new_arr
+# => [1,3,5]
+# Reduce:
+
+# arr = [1,2,3,4,5]
+
+# val = arr.reduce(&:+)
+
+# puts val
+# => 15
+
+# next - next line of code
+# break - break out of the code 
+# retry - do the code again 
+
+# Next:
+
+# x = 0
+# (0..5).each do |x| 
+#   if x % 2 == 0
+#     y = 'even'
+#   else
+#     y = 'odd'
+#    next
+#  end
+#    puts x
+# end
+
+# Break:
+
+# x = 0
+# while x <= 10 
+#   break if x == 5
+#   puts x
+#   x += 1
+# end
+# Retry:
+
+# while x <= 10
+#   begin
+#     # code that could throw exception would go here
+#     x += 1
+#   rescue => e
+#     # e would = exception that was thrown
+#     puts e
+#     # retry would go back up and restart the loop from the beginning
+#     # if we didn't have the retry it would keep iterating the loop from where x is
+#     retry
+#   end
+# end
+
+# `run command line command`
+# puts `ls` 
