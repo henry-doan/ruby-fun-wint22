@@ -282,3 +282,84 @@
   # while 
   # until 
   # interators 
+
+# Review 
+# Data object, - person place thing, 
+# Datatypes
+#   Floats
+#     -123.231 0.0 -1231.123123
+#   integer
+#     1234 -12341 0
+
+  # puts 1 / 2
+  # #   0.5 doesn't do any round, trunc
+  # strings 
+    # " asdf" 'asdf'
+  # Array
+    # ['asdf', 123, [], 1.13]
+  # hashes 
+    # key value pairs 
+    # { first_name: 'bob', age: 123}
+  # booleans 
+  #   true false 
+  # date 
+# Error 
+  # NAN - not a number 
+  # nil - no value  
+  # undefined - can't find what is being used
+
+# = - assignment 
+# == equal in value 
+# === equal in value and type
+# % - modulus, return the remainder 
+# && and 
+# || or 
+
+# Variable - store an object to ref later 
+# scope - access to the variable 
+# @first_name = 'bob'
+
+# Foo - constant, file wide 
+# foo - local, within a code block 
+# @foo - instance, class, file, running instance 
+# @@foo - class, class, file 
+# $foo - don't use, global, machine wide 
+
+# Methods - put our code into small parts 
+# def method_name
+
+# end
+# method_name
+# def method_name(arg)
+
+# end
+# method_name(arg)
+
+# statement , used with a loop or conditional 
+# - always return either true or false 
+# Taunticalogical always true 1 > 0 , always run 
+# contradition always false 1 < 0, never run  
+# Contingent something that is true or false 
+# age >= 21 
+
+# Conditionals 
+  # - use a statement, run the logic if the statement is met
+  # - all do a condition, multiple ways to do the same thing
+  # if else 
+  # case 
+  # ternary 
+  # unless
+
+  # if num % 2 == 0 
+  #   puts "this number is even"
+  # else 
+  #   puts 'This number is odd'
+  # end 
+
+# Loops
+  # - statements
+  # - continue to run logic until a condition is met 
+  # for 
+  # while 
+  # until 
+  # interators 
