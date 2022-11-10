@@ -345,7 +345,7 @@
 # Conditionals 
   # - use a statement, run the logic if the statement is met
   # - all do a condition, multiple ways to do the same thing
-  # if else 
+  # if elsif else 
   # case 
   # ternary 
   # unless
@@ -355,7 +355,42 @@
   # else 
   #   puts 'This number is odd'
   # end 
+  # puts 'give us a number:'
+  # num = gets.strip.to_i 
+  # .strip get rid of space before and after
+  # .chomp get rid of the space at the end
+  # if num == 1
+  #   puts "one"
+  # elsif num == 2
+  #   puts "two"
+  # elsif num == 3 || num == 4
+  #   puts "threeish"
+  # else 
+  #   puts "not the right number"
+  # end
 
+  # case num 
+  # when 1 
+  #   puts "one"
+  # when 2 
+  #   puts "two"
+  # when 3, 4 
+  #   puts "threeish"
+  # else 
+  #   puts "not the right number"
+  # end
+  # ternary 
+  #   - only if else statement 
+  #   - all in one line
+  # assignment = condition ? if : else 
+  # if num % 2 == 0 
+  #   puts 'even'
+  # else 
+  #   puts 'odd'
+  # end
+  # num % 2 == 0 ? puts 'even' : puts 'odd'
+
+  
 # Loops
   # - statements
   # - continue to run logic until a condition is met 
